@@ -33,14 +33,14 @@ const navItems = [
 { label: "Search", path: "/search", icon: Search }];
 
 const getPageTitle = (pathname) => {
-  if (pathname === "/") return "SchoolVault";
+  if (pathname === "/") return "Sci-Files";
   if (pathname.startsWith("/scan-qr")) return "Scan QR";
   if (pathname.startsWith("/scan")) return "Scan Document";
   if (pathname.startsWith("/search")) return "Search";
   if (pathname.startsWith("/students")) return "Students";
   if (pathname.startsWith("/board")) return "My Board";
   if (pathname.startsWith("/files")) return "Files";
-  return "SchoolVault";
+  return "SciFiles";
 };
 
 export default function AppLayout() {
