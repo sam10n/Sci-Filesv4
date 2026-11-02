@@ -76,7 +76,7 @@ export default function Register() {
             <FileText className="w-7 h-7 text-white" />
           </div>
           <h1 className="text-2xl font-heading font-bold text-slate-900">Create Account</h1>
-          <p className="text-sm text-slate-500 mt-1">{step === 1 ? "Get started with SchoolVault" : "Verify your email"}</p>
+          <p className="text-sm text-slate-500 mt-1">{step === 1 ? "Get started with Sci-Files" : "Verify your email"}</p>
         </div>
 
         <div className="bg-white rounded-2xl border border-slate-100 p-6 shadow-sm">
