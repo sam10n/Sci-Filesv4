@@ -41,7 +41,7 @@ export default function Login() {
           <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center mx-auto mb-4">
             <FileText className="w-7 h-7 text-white" />
           </div>
-          <h1 className="text-2xl font-heading font-bold text-slate-900">SchoolVault</h1>
+          <h1 className="text-2xl font-heading font-bold text-slate-900">Sci-Files</h1>
           <p className="text-sm text-slate-500 mt-1">Sign in to manage your records</p>
         </div>
 
